@@ -1,4 +1,4 @@
-export default [
+let albums = [
   {
     id: 1,
     artist: 'Sweet Trip',
@@ -84,3 +84,5 @@ export default [
     genre: 'Rock',
   },
 ]
+
+export default albums
