@@ -1,9 +1,10 @@
 import Album from './components/Album'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <h1>Market App</h1>
+      <Navbar />
       <Album />
     </div>
   );
