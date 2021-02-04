@@ -1,6 +1,7 @@
 import './App.css'
 import Album from './components/Album'
 import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
 import albums from './api/api'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
       </header>
       <main id="main">
+        <Sidebar />
         <Album albums={albums}/>
       </main>
     </div>
