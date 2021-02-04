@@ -1,5 +1,29 @@
+:root {
+  --primary-color: #ffffc7;
+  --secondary-color: #b6be9c;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+}
+
+/* Navbar */
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 0.25fr 0.25fr 0.25fr;
+  align-items: center;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-left: 35px;
 }

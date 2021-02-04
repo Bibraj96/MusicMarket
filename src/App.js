@@ -1,3 +1,4 @@
+import './App.css'
 import Album from './components/Album'
 import Navbar from './components/Navbar'
 import albums from './api/api'
