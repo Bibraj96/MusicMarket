@@ -42,3 +42,9 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
+
+/* Sidebar */
+
+.sidebar p {
+  margin: 20px 10px;
+}
