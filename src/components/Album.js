@@ -9,7 +9,7 @@ const Album = ({ albums }) => {
               <h3 className="album-title">{album.title}</h3>
               <h4 className="album-artist">{album.artist}</h4>
               <p className="album-genre">{album.genre}</p>
-              <p className="album-price">{album.price}</p>
+              <p className="album-price">${album.price}</p>
               <button className="album-btn">Add to Cart</button>
             </div>
           ))}

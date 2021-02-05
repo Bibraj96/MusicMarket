@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ffffc7;
+  --primary-color: #7c98b3;
   --secondary-color: #b6be9c;
 }
 
@@ -26,6 +26,7 @@ body {
 h1 {
   font-size: 2rem;
   margin-left: 35px;
+  /* color: var(--primary-color); */
 }
 
 /* Main */
