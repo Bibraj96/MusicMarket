@@ -44,6 +44,7 @@ const App = () => {
               artist={album.artist}
               genre={album.genre}
               price={album.price}
+              onAddToCartClick={() => handleAddtoCartClick(album.id)}
             />
           ))}
         </div>
