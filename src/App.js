@@ -35,7 +35,7 @@ const App = () => {
         <Navbar />
       </header>
       <main id="main">
-        <Sidebar />
+        <Sidebar albumsInCart={albumsInCart} totalCost={totalCost}/>
         <div className="albums-list">
           {albums.map(album => (
             <Album
@@ -48,7 +48,7 @@ const App = () => {
             />
           ))}
         </div>
-        <Cart albumsInCart={albumsInCart} totalCost={totalCost}/>
+        {/* <Cart albumsInCart={albumsInCart} totalCost={totalCost}/> */}
       </main>
     </div>
   );
