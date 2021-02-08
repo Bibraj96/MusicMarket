@@ -1,4 +1,6 @@
-const Sidebar = () => {
+import Cart from './Cart'
+
+const Sidebar = ({ albumsInCart, totalCost }) => {
   return (
     <div className="sidebar">
       <h2>Sidebar</h2>
@@ -6,6 +8,8 @@ const Sidebar = () => {
       <p>Genres</p>
       <p>Reviews</p>
       <p>About us</p>
+
+      <Cart albumsInCart={albumsInCart} totalCost={totalCost}/>
     </div>
   )
 }
