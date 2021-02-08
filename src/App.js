@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useState } from 'react'
-// import Cart from './Cart'
+import Cart from './components/Cart'
 import Album from './components/Album'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
@@ -48,7 +48,7 @@ const App = () => {
             />
           ))}
         </div>
-        {/* <Cart albums={albumsInCart} totalCost={totalCost}/> */}
+        <Cart albumsInCart={albumsInCart} totalCost={totalCost}/>
       </main>
     </div>
   );
