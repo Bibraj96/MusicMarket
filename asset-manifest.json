@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MusicMarket/static/css/main.cbafc7d5.chunk.css",
+    "main.js": "/MusicMarket/static/js/main.d17df9d2.chunk.js",
+    "main.js.map": "/MusicMarket/static/js/main.d17df9d2.chunk.js.map",
+    "runtime-main.js": "/MusicMarket/static/js/runtime-main.0f958387.js",
+    "runtime-main.js.map": "/MusicMarket/static/js/runtime-main.0f958387.js.map",
+    "static/js/2.23807654.chunk.js": "/MusicMarket/static/js/2.23807654.chunk.js",
+    "static/js/2.23807654.chunk.js.map": "/MusicMarket/static/js/2.23807654.chunk.js.map",
+    "static/js/3.a2909e48.chunk.js": "/MusicMarket/static/js/3.a2909e48.chunk.js",
+    "static/js/3.a2909e48.chunk.js.map": "/MusicMarket/static/js/3.a2909e48.chunk.js.map",
+    "index.html": "/MusicMarket/index.html",
+    "static/css/main.cbafc7d5.chunk.css.map": "/MusicMarket/static/css/main.cbafc7d5.chunk.css.map",
+    "static/js/2.23807654.chunk.js.LICENSE.txt": "/MusicMarket/static/js/2.23807654.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f958387.js",
+    "static/js/2.23807654.chunk.js",
+    "static/css/main.cbafc7d5.chunk.css",
+    "static/js/main.d17df9d2.chunk.js"
+  ]
+}

@@ -1,0 +1,2 @@
+:root{--primary-color:#7c98b3;--secondary-color:#b6be9c}*{margin:0;padding:0;box-sizing:border-box}body{font-family:"Poppins",sans-serif;background:#fff}.navbar{display:grid;grid-template-columns:1fr .25fr .25fr .25fr;align-items:center;margin:30px}h1{font-size:2rem;margin-left:35px}#main{display:grid;grid-template-columns:25% 75%;margin:100px 25px 25px}.albums-list{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:2rem}.sidebar p{margin:20px 10px}
+/*# sourceMappingURL=main.cbafc7d5.chunk.css.map */
