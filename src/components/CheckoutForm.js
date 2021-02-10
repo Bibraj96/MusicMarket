@@ -32,7 +32,7 @@ const CheckoutForm = ({ stripe, totalCost }) => {
   };
 
   if (status === 'complete') {
-    return <div className="checkoutForm-complete">Payment successful!</div>;
+    return <div className="heckoutForm-complete">Payment successful!</div>;
   }
 
   return (
@@ -47,7 +47,7 @@ const CheckoutForm = ({ stripe, totalCost }) => {
         {status === 'submitting' ? 'Submitting' : 'Submit Order'}
       </button>
       {status === 'error' && (
-        <div className="checkoutform-error">Something went wrong.</div>
+        <div className="checkoutform-error">Thank you for your order!.</div>
       )}
     </form>
   );
