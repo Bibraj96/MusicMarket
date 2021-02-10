@@ -7,7 +7,7 @@ const Sidebar = ({ albumsInCart, totalCost }) => {
     <div className="sidebar">
       <h2>Sidebar</h2>
       <p>Artists</p>
-      <p>Genres</p>
+      <p>Albums</p>
       <p>Reviews</p>
       <p>About us</p>
 
