@@ -1,4 +1,6 @@
 import Cart from './Cart'
+import { Elements, StripeProvider } from 'react-stripe-elements';
+import CheckoutForm from './CheckoutForm';
 
 const Sidebar = ({ albumsInCart, totalCost }) => {
   return (
@@ -10,6 +12,13 @@ const Sidebar = ({ albumsInCart, totalCost }) => {
       <p>About us</p>
 
       <Cart albumsInCart={albumsInCart} totalCost={totalCost}/>
+      {albumsInCart.length > 0 && (
+        <StripeProvider apiKey="your_public_key">
+          <Elements>
+            <CheckoutForm totalCost={totalCost} />
+          </Elements>
+        </StripeProvider>
+      )}
     </div>
   )
 }
