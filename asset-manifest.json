@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MusicMarket/static/css/main.cbafc7d5.chunk.css",
-    "main.js": "/MusicMarket/static/js/main.d17df9d2.chunk.js",
-    "main.js.map": "/MusicMarket/static/js/main.d17df9d2.chunk.js.map",
+    "main.js": "/MusicMarket/static/js/main.797d9d74.chunk.js",
+    "main.js.map": "/MusicMarket/static/js/main.797d9d74.chunk.js.map",
     "runtime-main.js": "/MusicMarket/static/js/runtime-main.0f958387.js",
     "runtime-main.js.map": "/MusicMarket/static/js/runtime-main.0f958387.js.map",
     "static/js/2.23807654.chunk.js": "/MusicMarket/static/js/2.23807654.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0f958387.js",
     "static/js/2.23807654.chunk.js",
     "static/css/main.cbafc7d5.chunk.css",
-    "static/js/main.d17df9d2.chunk.js"
+    "static/js/main.797d9d74.chunk.js"
   ]
 }
