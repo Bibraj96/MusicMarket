@@ -1,8 +1,9 @@
 
-const Album = ({ title, artist, genre, price, onAddToCartClick }) => {
+const Album = ({ title, artist, genre, price, image, onAddToCartClick }) => {
 
   return (
     <div className="album-item">
+      <img src={image}/>
       <h3 className="album-title">{title}</h3>
       <h4 className="album-artist">{artist}</h4>
       <p className="album-genre">{genre}</p>
