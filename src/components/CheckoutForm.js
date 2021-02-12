@@ -32,15 +32,15 @@ const CheckoutForm = ({ stripe, totalCost }) => {
   };
 
   if (status === 'complete') {
-    return <div className="heckoutForm-complete">Payment successful!</div>;
+    return <div className="checkoutForm-complete">Payment successful!</div>;
   }
 
   return (
     <form className="checkoutform" onSubmit={submit}>
       <h4>Would you like to complete the purchase?</h4>
-      <CardElement />
+      <CardElement className="card-info"/>
       <button
-        className="checkoutform-button"
+        className="btn"
         type="submit"
         disabled={status === 'submitting'}
       >

@@ -87,3 +87,27 @@ h1 {
 .sidebar p {
   margin: 20px 10px;
 }
+
+/* Cart */
+
+.cart {
+}
+
+.cart-title {
+  margin-bottom: 10px;
+}
+
+/* Checkout Form */
+
+.checkoutform {
+  margin: 10px 25px;
+  border-top: 1px solid #aaa;
+}
+
+.checkoutform h4 {
+  margin: 20px 10px 10px 0px;
+}
+
+.card-info {
+  margin: 10px;
+}
