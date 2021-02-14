@@ -46,8 +46,10 @@ body a {
   color: #000000;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.sidebar p:hover {
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 h1 {
@@ -89,9 +91,6 @@ h1 {
 }
 
 /* Cart */
-
-.cart {
-}
 
 .cart-title {
   margin-bottom: 10px;

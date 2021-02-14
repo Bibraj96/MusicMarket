@@ -5,7 +5,7 @@ import CheckoutForm from './CheckoutForm';
 const Sidebar = ({ albumsInCart, totalCost }) => {
   return (
     <div className="sidebar">
-      <h2>Sidebar</h2>
+      <h2>More</h2>
       <p>Artists</p>
       <p>Albums</p>
       <p>Reviews</p>

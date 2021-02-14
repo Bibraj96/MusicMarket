@@ -1,0 +1,44 @@
+/* Tablets */
+@media (max-width: 800px) {
+  .albums-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+  .navbar {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  #main {
+    margin-top: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .sidebar {
+    justify-items: center;
+    margin-bottom: 25px;
+    margin-left: 0px;
+  }
+
+  .sidebar p {
+    display: inline;
+    margin-left: 0px;
+  }
+
+  .albums-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cart-title {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}

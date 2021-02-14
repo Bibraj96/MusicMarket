@@ -1,6 +1,7 @@
 import './App.css'
+import './Mobile.css'
 import React, { useState } from 'react'
-import Cart from './components/Cart'
+// import Cart from './components/Cart'
 import Album from './components/Album'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
